@@ -27,7 +27,7 @@ int opt=sc.nextInt();
         break;
         case 4:  amtDeposit();
           break;
-        case 5:  changePin();
+        case 5:  changePassword();
         break;
 default:
 System.out.println("NOT A VALID INPUT");
@@ -117,7 +117,7 @@ static void amtWithDraw(){
           System.out.println("NOT A VALID ACCOUNT NUMBER");
           }
  }
-  static void changePin(){
+  static void changePassword(){
     System.out.println("ENETR YOUR TEN DIGIT ACCOUNT NUMBER:");
           int num=sc.nextInt();
           if(num==accno) {
